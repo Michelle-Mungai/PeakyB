@@ -1,0 +1,126 @@
+/* quiz.css */
+
+.quiz-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  width: 400px;
+  margin: 0 auto;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 20px;
+  background-color: cadetblue;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.quiz-question {
+  font-size: 24px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  margin-top: 0;
+}
+.quiz-container h2 {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.quiz-container p {
+  margin-bottom: 20px;
+}
+
+.quiz-options label {
+  /* margin-left: 10px; */
+  margin-bottom: 10px;
+  /* margin-top: 5px; */
+  align-items: center;
+  justify-content: center;
+}
+
+.quiz-options input[type="radio"] {
+  /* margin-left: 10px; */
+  align-items: center;
+  justify-content: center;
+}
+.quiz-options {
+  margin-top: 10px;
+}
+
+.quiz-option {
+  cursor: pointer;
+  padding: 10px;
+  margin-top: 5px;
+  background-color: red;
+}
+
+.quiz-option:hover {
+  background-color: #e0e0e0;
+}
+
+.quiz-option.selected {
+  background-color: #ff9800;
+  color: #ffffff;
+}
+
+.quiz-next-button {
+  display: block;
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #24243e;
+  margin-left: 180px;
+  margin-top: 25px;
+  border-radius: 2px;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+}
+
+.quiz-next-button:disabled {
+  background-color: white;
+  color: gray;
+  margin-left: 180px;
+  margin-top: 25px;
+  border-radius: 2px;
+}
+
+.quiz-result {
+  font-size: 24px;
+  width: 300px;
+  margin: 0 auto;
+  padding: 20px;
+  /* background-color: cadetblue; */
+  border-radius: 5px;
+  /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5); */
+}
+.quiz-result h2{
+  font-size: 24px;
+  list-style: none;
+  margin-top: 0;
+}
+.quiz-result ul{
+  list-style: none;
+  padding: 0;
+  margin-bottom: 20px;
+}
+.quiz-result button{
+  display: flex;
+  margin-top: 35px;
+  margin-left: 90px;
+  padding: 10px;
+  border-radius: 2px;
+  background-color: #24243e;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+}
+
+.quiz-retry-button {
+  display: block;
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 2px;
+  background-color: #24243e;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+}
+
